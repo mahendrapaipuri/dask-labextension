@@ -3,6 +3,7 @@ A Dashboard handler for the Dask labextension.
 This proxies the bokeh server http and ws requests through the notebook
 server, preventing CORS issues.
 """
+
 import json
 from inspect import isawaitable
 from urllib import parse
