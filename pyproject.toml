@@ -77,7 +77,6 @@ ignore = ["W002"]
 [tool.black]
 # target-version should be all supported versions
 target_version = [
-    "py39",
     "py310",
     "py311",
     "py312",
